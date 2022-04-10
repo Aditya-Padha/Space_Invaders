@@ -133,7 +133,7 @@ while game:
 
     if game_over == 0:
         seconds = (pygame.time.get_ticks() - timer) / 1000
-        if seconds > 5:
+        if seconds > 1:
             create_invader_bullet()
             timer = pygame.time.get_ticks()
 
