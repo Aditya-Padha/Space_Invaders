@@ -158,3 +158,5 @@ while game:
     pygame.display.update()
 
 pygame.quit()
+
+{}
